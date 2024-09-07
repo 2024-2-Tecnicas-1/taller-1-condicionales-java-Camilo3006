@@ -23,10 +23,9 @@ public class Division {
         } else {
             respuesta = "La división no es exacta. ";
         }
-        respuesta += " Cociente: " + cociente ;
-        respuesta += " Residuo: " + residuo;
+        respuesta += "\nCociente: " + cociente;
+        respuesta += "\nResiduo: " + residuo;
     
-   
         return respuesta;
     }
     
